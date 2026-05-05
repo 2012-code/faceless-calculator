@@ -16,6 +16,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Silovra - AI Earnings Calculator",
   description: "Calculate your potential earnings from Faceless AI YouTube and TikTok channels with Silovra. Our advanced AI-powered revenue estimator helps you discover the true profitability of your content.",
+  metadataBase: new URL('https://silovra.online'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "Silovra - AI Earnings Calculator",
+    description: "Calculate your potential earnings from Faceless AI YouTube and TikTok channels with Silovra.",
+    url: 'https://silovra.online',
+    siteName: 'Silovra',
+    images: [
+      {
+        url: '/og-image.png', // We should generate this or use a placeholder
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Silovra - AI Earnings Calculator",
+    description: "Calculate your potential earnings from Faceless AI YouTube and TikTok channels with Silovra.",
+    images: ['/og-image.png'],
+  },
   other: {
     "google-adsense-account": "ca-pub-9086261363146330",
   },
