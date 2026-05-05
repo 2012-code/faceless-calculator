@@ -106,10 +106,10 @@ export default function FacelessEarningsCalculator() {
           <span>Updated for 2026 Algorithms</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
-          Faceless AI Channel <br className="hidden md:block"/> Earnings Calculator 2026
+          Silovra - AI Earnings <br className="hidden md:block"/> Calculator 2026
         </h1>
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto">
-          Discover the true profitability of your next AI content empire. Dial in your niche, platform, and traffic to uncover exactly how much you could earn.
+          Discover the true profitability of your next AI content empire with Silovra. Dial in your niche, platform, and traffic to uncover exactly how much you could earn.
         </p>
       </header>
 

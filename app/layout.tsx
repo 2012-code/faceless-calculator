@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Faceless AI Channel Earnings Calculator",
-  description: "Calculate your potential earnings from Faceless AI YouTube and TikTok channels based on your niche and platform.",
+  title: "Silovra - AI Earnings Calculator",
+  description: "Calculate your potential earnings from Faceless AI YouTube and TikTok channels with Silovra. Our advanced AI-powered revenue estimator helps you discover the true profitability of your content.",
   other: {
     "google-adsense-account": "ca-pub-9086261363146330",
   },
