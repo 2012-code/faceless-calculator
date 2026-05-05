@@ -2,6 +2,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { 
   Calculator, 
   TrendingUp, 
@@ -407,6 +408,26 @@ export default function FacelessEarningsCalculator() {
         </article>
 
       </main>
+
+      {/* Footer Section */}
+      <footer className="border-t border-slate-800 pt-16 pb-24 px-4 max-w-6xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 text-slate-500 text-sm">
+          <div className="flex flex-col items-center md:items-start space-y-2">
+            <p>© 2026 Silovra. All rights reserved.</p>
+            <p>Built for the next generation of AI entrepreneurs.</p>
+          </div>
+          
+          <div className="flex space-x-8">
+            <Link href="/about" className="hover:text-blue-400 transition-colors">About Us</Link>
+            <Link href="/privacy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
+          </div>
+
+          <div className="flex flex-col items-center md:items-end space-y-2">
+            <span className="text-slate-600 uppercase tracking-widest text-[10px] font-bold">Contact</span>
+            <a href="mailto:contact@silovra.online" className="text-slate-400 hover:text-blue-400 transition-colors">contact@silovra.online</a>
+          </div>
+        </div>
+      </footer>
 
       {/* Sticky Footer Ad */}
       <div className="sticky bottom-0 w-full p-2 z-50">
