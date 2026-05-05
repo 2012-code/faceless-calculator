@@ -419,7 +419,7 @@ export default function FacelessEarningsCalculator() {
           
           <div className="flex space-x-8">
             <Link href="/about" className="hover:text-blue-400 transition-colors">About Us</Link>
-            <Link href="/privacy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
+            <Link href="/privacy-policy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
           </div>
 
           <div className="flex flex-col items-center md:items-end space-y-2">
